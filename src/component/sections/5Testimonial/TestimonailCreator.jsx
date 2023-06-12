@@ -13,7 +13,7 @@ function TestimonailCreator(props) {
     return (
         <div class={props.class} data-bs-interval={props.interval}>
 
-            <div className="TestimonalContainers col-sm-3 col-md-6 col-lg-12">
+            <div className="TestimonalContainers col-sm-3 col-md-6">
 
                 <div className="right-testimonal" >
                     <div className="testimonal-img-container">
@@ -24,7 +24,7 @@ function TestimonailCreator(props) {
                     <p className="testimonal-describtion">{props.description}</p>
                 </div>
 
-                <div className="left-testimonal col-sm-3 col-md-6 col-lg-12">
+                <div className="left-testimonal col-sm-3 col-md-6">
                     
                     
 

@@ -1,5 +1,5 @@
 body {
-    background-color: #212428;
+    background: #212428 !important;
     overflow-x: hidden;
 }
 
@@ -188,6 +188,7 @@ p {
 
 .welcomeToMyWorldSection-continer {
     width: 90%;
+    height: 80vh;
     display: flex;
     margin: 30px auto 100px auto;
     justify-content: space-between;
@@ -198,7 +199,7 @@ p {
     background: linear-gradient(145deg, #1e2024, #23272b);
     position: absolute;
     z-index: -1;
-    width: 33.6%;
+    width: 33rem;
     height: calc(68.5% - -20px);
     content: "";
     transform: translateY(26%);
@@ -639,14 +640,20 @@ a:hover {
     margin: 90px auto;
     padding: 45px;
     display: flex;
+    justify-content: space-around;
 }
 
-.showImg {
-    width: 50%;
+.showImgs {
+    width: 40%;
+    text-align: center;
 }
 
 .rainboitImg {
-    width: 100%;
+    /* width: 82%;
+    padding: 15px;
+    border-radius: 25px; */
+    width: 35vw;
+    height: 62vh;
     padding: 15px;
     border-radius: 25px;
 }
@@ -837,7 +844,7 @@ a:hover {
 
 .TestimonalContainers {
     display: inline-flex;
-    width: 100%;
+    width: 100% !important;
     justify-content: center;
     margin-bottom: 40px;
     left: 200px;
@@ -1433,7 +1440,7 @@ a:hover {
 }
 
 .client-header-container {
-    width: 84%;
+    width: 84% !important;
     margin: 95px auto 65px auto;
 }
 
@@ -2407,6 +2414,7 @@ a:hover {
     }
     .social-area {
         margin-top: 100px;
+        padding-bottom: 20px;
     }
 }
 

@@ -10,6 +10,7 @@ import PopulerClient from "./component/sections/6populerClient/PopulerClient";
 import Price from "./component/sections/7Prising/Price";
 import Blog from "./component/sections/8Blog/Blog";
 import Contact from "./component/sections/9Contact/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import motion from "framer-motion";
 function App() {
   return (
