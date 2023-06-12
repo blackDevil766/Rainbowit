@@ -2460,6 +2460,7 @@ a:hover {
     }
     .welcomeToMyWorldSection-continer {
         display: block;
+        height: 100%;
     }
     .icons {
         width: 70px;
